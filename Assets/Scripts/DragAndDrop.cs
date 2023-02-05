@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class DragAndDrop : MonoBehaviour
 {
@@ -167,6 +168,10 @@ public class DragAndDrop : MonoBehaviour
             GameObject outHitTileMap = hitInfo.collider.transform.parent.gameObject;
 
             //Debug.Log("Clicked On: " + ourHitObject.name);
+
+            if (true) {
+
+            }
 
             if (outHitTileMap.GetComponent<Position>() != null) {
 
